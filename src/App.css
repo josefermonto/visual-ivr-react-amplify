@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-image {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+label{
+  font-size: medium;
+  font-weight: 600;
+  display: block;
+}
+input{
+  height: 2rem;
+  width: 20rem;
+}
+
+button{
+  background-color: #639774;
+  color: white;
+  height: 2rem;
+  width: 20rem;
+  border-radius: 2%;
+  border: none; /* Remove border */
+
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Inline-block element */
+  font-size: 16px; /* Font size */
+  font-weight: 600;
+  margin: 4px 2px; /* Margin */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 8px; /* Rounded corners */
+
+}
+
+/* Additional styles for hover and active states */
+button:hover {
+  background-color: #69cc8a; /* Darker green on hover */
+}
+
+button:active {
+  background-color: #296a3f; /* Even darker green on click */
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: xx-small;
+  font-style: italic;
+}
